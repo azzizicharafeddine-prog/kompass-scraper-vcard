@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Données extraites et exports (protéger les données de prospection)
+*.csv
+*.vcf
+*.txt
+!requirements.txt
+out.csv
+contacts.vcf
+contact.vcf
+*.log
+debug*.html
+company_debug.html
+
+# Sous-dossiers d'export créés automatiquement
+*_*/
+
+# IDE
+.vscode/
+.idea/
